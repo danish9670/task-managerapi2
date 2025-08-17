@@ -4,7 +4,7 @@ import connectDB from "./config/db.js";
 import authRoutes from "./routes/auth.js";
 import taskRoutes from "./routes/tasks.js";
 
-dotenv.config();
+dotenv.config(); // ✅ env variables load ho jayenge
 connectDB();
 
 const app = express();
